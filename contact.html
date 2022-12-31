@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- Bootstrap JS - Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- Personal Stylesheet -->
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Contact us</title>
+    </head>
+
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg">
+            <div class="container-fluid ">
+                <span class="navbar-brand" id="logo">
+                    <img src="/Logo.png" alt="Brand Logo" width="75" height="75" class="d-inline-block align-text-middle">
+                    Consulting
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mx-auto my-2 my-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/services.html">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="/projects.html#residential">Residential</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/projects.html#commercial">Commercial</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/projects.html#reforms">Reforms</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/team.html">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="contact-title">
+            <h1>Contact Us</h1>
+            <p>We are glad to hearing from you!</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5 text-center">
+                    <h6> Our Location!</h6>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.2648339553!2d-58.503338823762334!3d-34.61580373590224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1666118103890!5m2!1ses!2sar" style="border:0; height: 100%; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <form action="mailto:castanio.m@gmail.com">
+                        <div class="form-group mb-3">
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="Your name..">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Your last name..">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="country">Country</label>
+                            <select class="form-control" id="country">
+                                <option value="default">Select country...</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="España">España</option>
+                                <option value="United States">United States</option>
+                            </select>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="textarea">Leave your message:</label>
+                            <textarea class="form-control mb-3" id="textarea" rows="3" placeholder="Write something..."></textarea>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

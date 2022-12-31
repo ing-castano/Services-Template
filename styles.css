@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+    --blue: #4d679b;
+    --red: #ff5757;
+    --grey: #8e9aaf;
+  }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+  }
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar{
+    background-color: #ffffff;
+}
+
+#section1{
+    height: 100vh;
+    padding-top: 20%;
+    background-color: #ffffff;
+}
+
+#section2{
+    height: 100vh;
+    align-items: center;
+    color: #ffffff;
+    background-color: var(--grey);
+}
+
+#section3{
+    height: 100vh;
+    align-items: center;
+    color: #ffffff;
+    background-color: var(--red);
+}
+
+#services-section{
+    height: 100vh;
+    align-items: center;
+    color: #ffffff;
+    background-color: var(--grey);
+}
+
+.services_img{
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.services_img:hover{
+    /*display: none;*/
+    transform: scale(1.1);
+}
+
+.overlay{
+    position: absolute;
+    top: 30%;
+    width: 90%;
+    text-align: center;
+}
+
+.not-loader{
+    visibility: hidden;
+    position: relative;
+}
+
+.loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    visibility: visible;
+    color: var(--red);
+}
+
+.contact-title{
+    text-align:center;
+    background-color: var(--blue);
+    color: #ffffff;
+
+}
+
+section{
+    height: 100vh;
+}
+
+footer{
+    font-family: Helvetica Neue;
+    font-size: small;
+    text-align: center;
+}
+
+footer a:link{
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+footer a:visited {
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+footer a:hover {
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+footer a:active {
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+
+
+
+@media (max-width: 799px) {
+    #services-section{
+        height: auto;
+       padding-top: 20%;
+       background-color: var(--grey);
+    }
+}
+*/

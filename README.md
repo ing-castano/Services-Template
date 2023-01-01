@@ -14,4 +14,11 @@ In addition, it also includes Javascript features to increase User-Experience.
 
 ## Features
 `index.html` Provide the presentation and purpose of your business and lead organically to `Our Services` section.
-`services.html` 
+
+`services.html` With a dynamic picture envirnoment, transmit your client what are your specific habilities.
+
+`projects.html` Generate trust with your client, showing them what your previous projects have been about.
+
+`team.html` Every business has a team that leads the way! Present your team to the world!
+
+`contact.html` Aesthetic Form to deliver any contact posibility with your customer.
